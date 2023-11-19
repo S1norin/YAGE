@@ -45,7 +45,7 @@ template_dialog_generator = """<?xml version="1.0" encoding="UTF-8"?>
     <item row="0" column="0">
      <widget class="QLabel" name="label">
       <property name="text">
-       <string>Выбирете задания</string>
+       <string>Выберите задания</string>
       </property>
      </widget>
     </item>
@@ -118,9 +118,6 @@ template_dialog_generator = """<?xml version="1.0" encoding="UTF-8"?>
 </ui>
 
 """
-
-
-
 
 
 class GeneratorDialogWindow(QMainWindow):
